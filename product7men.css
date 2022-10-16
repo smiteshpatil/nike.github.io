@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-div{
+    height: 100vh;
+    background-image: linear-gradient(rgba(28,28,28,0.7), rgba(28,28,28,0.7)), url(\img/bg-5.jpg);
+    background-position: center;
+    background-size: cover;
+font-family: sans-serif;
+}
+.nav-bar{
+    display: flex;
+    height: 12%;
+}
+.navbar-left{
+    flex-basis: 70%;
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+
+}
+.navbar-inner{
+    display: flex;
+    align-items: center;
+    padding: 2px 50px 10px 50px;
+}
+#logo{
+    height: 80px;   
+}
+.navbar-inner ul{
+    margin-left: 20px;
+    z-index: 2;
+}
+.navbar-inner ul li{
+    margin: 0 10px;
+    display: inline-block;
+}
+.navbar-inner ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-right{
+    flex-basis: 30%;
+    background: #fff;
+}
+.navbar-right ul{
+    float: right;
+    padding: 30px 50px 10px 50px;
+}
+.navbar-right ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.navbar-right ul li img{
+    height: 30px;
+}
+
+.content{
+    display: flex;
+    height: 88%;
+}
+.content-left{
+    flex-basis: 70%;
+    position: relative;
+}
+.content-right{
+    flex-basis: 30%;
+    position: relative;
+    background: #fff;
+}
+.upper-text{
+    left: 15%;
+    top: 30%;
+    position: absolute;
+    color: lightblue;
+    opacity: .5;
+}
+
+.upper-text h1{
+    font-size: 150px;  
+    margin-left: 140px;
+    font-style: italic;
+    line-height: 90px;
+}
+.upper-text h2{
+    font-size: 70px;
+
+}
+.bottom-text{
+    left: 55%;
+    bottom: 5%;
+    position: absolute;
+    color: lightblue;
+    opacity: 0.5;
+}
+.bottom-text h1{
+    font-size: 100px;
+    margin-left: 100px;
+    line-height: 50px;
+}
+.bottom-text h2{
+    font-size: 60px;
+}
+.bottom-text h3{
+    font-size: 40px;
+    margin-left: 225px;
+    line-height: 10px;
+}
+.content-left img{
+    top: 10%;
+    right: -20%;
+    position: absolute;
+    z-index: 1;
+}
+.product-details{
+    bottom: 10%;
+    left: 10%;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.price-box{
+    display: flex;
+    width: 170px;
+    height: 150px;
+    align-items: center;
+    box-shadow: -40px 0 20px -40px rgba(189, 189, 189, 0.5), 40px 0 20px -40px rgba(189, 189, 189, 0.5);
+}
+.price{
+    flex-basis: 70%;
+}
+.price h2{
+    margin-left: 20%;
+    color: #999;
+    font-size: 22px;
+}
+.price h1{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.price h3{
+    font-size: 16px;
+    margin-left: 20px;
+    color: black;
+}
+.varient{
+    flex-basis: 30%;
+    text-align: center;
+}
+.varient div{
+    width: 13px;
+    height: 13px;
+    margin: 5px auto;
+}
+.varient div:nth-child(1){
+    background-color: white;
+    transform: scale(1.5);
+
+}
+
+.varient div:nth-child(2){
+    background-color: red;
+}
+.varient div:nth-child(3){
+    background-color: lime;
+}
+.varient div:nth-child(4){
+    background-color: #999;
+}
+.varient div:nth-child(5){
+    background-color: #000;
+}
+
+.product-details{
+    text-align: right;
+    color: #999;
+    font-size: 13px;
+}
+.product-details a{
+text-decoration: none;
+color: green;
+}
+
+.social-links{
+    bottom: 120px;
+    right: -110px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+.social-links ul li{
+    list-style: none;
+    margin: 20px 15px;
+    display: inline-block;
+}
+.social-links ul li a{
+    text-decoration: none;
+    color: #999;
+}
+.img{
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
